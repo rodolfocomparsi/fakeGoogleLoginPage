@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76DCA53B291E51AB0023717B /* fakeGoogleLoginPageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DCA53A291E51AB0023717B /* fakeGoogleLoginPageApp.swift */; };
+		76DCA53D291E51AB0023717B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DCA53C291E51AB0023717B /* ContentView.swift */; };
+		76DCA53F291E51AD0023717B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76DCA53E291E51AD0023717B /* Assets.xcassets */; };
+		76DCA542291E51AD0023717B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76DCA541291E51AD0023717B /* Preview Assets.xcassets */; };
+		76DCA54C291E51AE0023717B /* fakeGoogleLoginPageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DCA54B291E51AE0023717B /* fakeGoogleLoginPageTests.swift */; };
+		76DCA556291E51AE0023717B /* fakeGoogleLoginPageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DCA555291E51AE0023717B /* fakeGoogleLoginPageUITests.swift */; };
+		76DCA558291E51AE0023717B /* fakeGoogleLoginPageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DCA557291E51AE0023717B /* fakeGoogleLoginPageUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76DCA548291E51AE0023717B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76DCA52F291E51AB0023717B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76DCA536291E51AB0023717B;
+			remoteInfo = fakeGoogleLoginPage;
+		};
+		76DCA552291E51AE0023717B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76DCA52F291E51AB0023717B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76DCA536291E51AB0023717B;
+			remoteInfo = fakeGoogleLoginPage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76DCA537291E51AB0023717B /* fakeGoogleLoginPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fakeGoogleLoginPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76DCA53A291E51AB0023717B /* fakeGoogleLoginPageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fakeGoogleLoginPageApp.swift; sourceTree = "<group>"; };
+		76DCA53C291E51AB0023717B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		76DCA53E291E51AD0023717B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76DCA541291E51AD0023717B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		76DCA547291E51AE0023717B /* fakeGoogleLoginPageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fakeGoogleLoginPageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76DCA54B291E51AE0023717B /* fakeGoogleLoginPageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fakeGoogleLoginPageTests.swift; sourceTree = "<group>"; };
+		76DCA551291E51AE0023717B /* fakeGoogleLoginPageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fakeGoogleLoginPageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76DCA555291E51AE0023717B /* fakeGoogleLoginPageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fakeGoogleLoginPageUITests.swift; sourceTree = "<group>"; };
+		76DCA557291E51AE0023717B /* fakeGoogleLoginPageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fakeGoogleLoginPageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76DCA534291E51AB0023717B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DCA544291E51AE0023717B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DCA54E291E51AE0023717B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76DCA52E291E51AB0023717B = {
+			isa = PBXGroup;
+			children = (
+				76DCA539291E51AB0023717B /* fakeGoogleLoginPage */,
+				76DCA54A291E51AE0023717B /* fakeGoogleLoginPageTests */,
+				76DCA554291E51AE0023717B /* fakeGoogleLoginPageUITests */,
+				76DCA538291E51AB0023717B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76DCA538291E51AB0023717B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76DCA537291E51AB0023717B /* fakeGoogleLoginPage.app */,
+				76DCA547291E51AE0023717B /* fakeGoogleLoginPageTests.xctest */,
+				76DCA551291E51AE0023717B /* fakeGoogleLoginPageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76DCA539291E51AB0023717B /* fakeGoogleLoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				76DCA53A291E51AB0023717B /* fakeGoogleLoginPageApp.swift */,
+				76DCA53C291E51AB0023717B /* ContentView.swift */,
+				76DCA53E291E51AD0023717B /* Assets.xcassets */,
+				76DCA540291E51AD0023717B /* Preview Content */,
+			);
+			path = fakeGoogleLoginPage;
+			sourceTree = "<group>";
+		};
+		76DCA540291E51AD0023717B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				76DCA541291E51AD0023717B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		76DCA54A291E51AE0023717B /* fakeGoogleLoginPageTests */ = {
+			isa = PBXGroup;
+			children = (
+				76DCA54B291E51AE0023717B /* fakeGoogleLoginPageTests.swift */,
+			);
+			path = fakeGoogleLoginPageTests;
+			sourceTree = "<group>";
+		};
+		76DCA554291E51AE0023717B /* fakeGoogleLoginPageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76DCA555291E51AE0023717B /* fakeGoogleLoginPageUITests.swift */,
+				76DCA557291E51AE0023717B /* fakeGoogleLoginPageUITestsLaunchTests.swift */,
+			);
+			path = fakeGoogleLoginPageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76DCA536291E51AB0023717B /* fakeGoogleLoginPage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76DCA55B291E51AE0023717B /* Build configuration list for PBXNativeTarget "fakeGoogleLoginPage" */;
+			buildPhases = (
+				76DCA533291E51AB0023717B /* Sources */,
+				76DCA534291E51AB0023717B /* Frameworks */,
+				76DCA535291E51AB0023717B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fakeGoogleLoginPage;
+			productName = fakeGoogleLoginPage;
+			productReference = 76DCA537291E51AB0023717B /* fakeGoogleLoginPage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76DCA546291E51AE0023717B /* fakeGoogleLoginPageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76DCA55E291E51AE0023717B /* Build configuration list for PBXNativeTarget "fakeGoogleLoginPageTests" */;
+			buildPhases = (
+				76DCA543291E51AE0023717B /* Sources */,
+				76DCA544291E51AE0023717B /* Frameworks */,
+				76DCA545291E51AE0023717B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76DCA549291E51AE0023717B /* PBXTargetDependency */,
+			);
+			name = fakeGoogleLoginPageTests;
+			productName = fakeGoogleLoginPageTests;
+			productReference = 76DCA547291E51AE0023717B /* fakeGoogleLoginPageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76DCA550291E51AE0023717B /* fakeGoogleLoginPageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76DCA561291E51AE0023717B /* Build configuration list for PBXNativeTarget "fakeGoogleLoginPageUITests" */;
+			buildPhases = (
+				76DCA54D291E51AE0023717B /* Sources */,
+				76DCA54E291E51AE0023717B /* Frameworks */,
+				76DCA54F291E51AE0023717B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76DCA553291E51AE0023717B /* PBXTargetDependency */,
+			);
+			name = fakeGoogleLoginPageUITests;
+			productName = fakeGoogleLoginPageUITests;
+			productReference = 76DCA551291E51AE0023717B /* fakeGoogleLoginPageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76DCA52F291E51AB0023717B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					76DCA536291E51AB0023717B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					76DCA546291E51AE0023717B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 76DCA536291E51AB0023717B;
+					};
+					76DCA550291E51AE0023717B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 76DCA536291E51AB0023717B;
+					};
+				};
+			};
+			buildConfigurationList = 76DCA532291E51AB0023717B /* Build configuration list for PBXProject "fakeGoogleLoginPage" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76DCA52E291E51AB0023717B;
+			productRefGroup = 76DCA538291E51AB0023717B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76DCA536291E51AB0023717B /* fakeGoogleLoginPage */,
+				76DCA546291E51AE0023717B /* fakeGoogleLoginPageTests */,
+				76DCA550291E51AE0023717B /* fakeGoogleLoginPageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76DCA535291E51AB0023717B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DCA542291E51AD0023717B /* Preview Assets.xcassets in Resources */,
+				76DCA53F291E51AD0023717B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DCA545291E51AE0023717B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DCA54F291E51AE0023717B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76DCA533291E51AB0023717B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DCA53D291E51AB0023717B /* ContentView.swift in Sources */,
+				76DCA53B291E51AB0023717B /* fakeGoogleLoginPageApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DCA543291E51AE0023717B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DCA54C291E51AE0023717B /* fakeGoogleLoginPageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DCA54D291E51AE0023717B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DCA556291E51AE0023717B /* fakeGoogleLoginPageUITests.swift in Sources */,
+				76DCA558291E51AE0023717B /* fakeGoogleLoginPageUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76DCA549291E51AE0023717B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76DCA536291E51AB0023717B /* fakeGoogleLoginPage */;
+			targetProxy = 76DCA548291E51AE0023717B /* PBXContainerItemProxy */;
+		};
+		76DCA553291E51AE0023717B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76DCA536291E51AB0023717B /* fakeGoogleLoginPage */;
+			targetProxy = 76DCA552291E51AE0023717B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		76DCA559291E51AE0023717B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76DCA55A291E51AE0023717B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76DCA55C291E51AE0023717B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fakeGoogleLoginPage/Preview Content\"";
+				DEVELOPMENT_TEAM = 34VENSFD79;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodolfocomparsi.fakeGoogleLoginPage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76DCA55D291E51AE0023717B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fakeGoogleLoginPage/Preview Content\"";
+				DEVELOPMENT_TEAM = 34VENSFD79;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodolfocomparsi.fakeGoogleLoginPage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		76DCA55F291E51AE0023717B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34VENSFD79;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodolfocomparsi.fakeGoogleLoginPageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fakeGoogleLoginPage.app/fakeGoogleLoginPage";
+			};
+			name = Debug;
+		};
+		76DCA560291E51AE0023717B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34VENSFD79;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodolfocomparsi.fakeGoogleLoginPageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fakeGoogleLoginPage.app/fakeGoogleLoginPage";
+			};
+			name = Release;
+		};
+		76DCA562291E51AE0023717B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34VENSFD79;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodolfocomparsi.fakeGoogleLoginPageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fakeGoogleLoginPage;
+			};
+			name = Debug;
+		};
+		76DCA563291E51AE0023717B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34VENSFD79;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodolfocomparsi.fakeGoogleLoginPageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fakeGoogleLoginPage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76DCA532291E51AB0023717B /* Build configuration list for PBXProject "fakeGoogleLoginPage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76DCA559291E51AE0023717B /* Debug */,
+				76DCA55A291E51AE0023717B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76DCA55B291E51AE0023717B /* Build configuration list for PBXNativeTarget "fakeGoogleLoginPage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76DCA55C291E51AE0023717B /* Debug */,
+				76DCA55D291E51AE0023717B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76DCA55E291E51AE0023717B /* Build configuration list for PBXNativeTarget "fakeGoogleLoginPageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76DCA55F291E51AE0023717B /* Debug */,
+				76DCA560291E51AE0023717B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76DCA561291E51AE0023717B /* Build configuration list for PBXNativeTarget "fakeGoogleLoginPageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76DCA562291E51AE0023717B /* Debug */,
+				76DCA563291E51AE0023717B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76DCA52F291E51AB0023717B /* Project object */;
+}
