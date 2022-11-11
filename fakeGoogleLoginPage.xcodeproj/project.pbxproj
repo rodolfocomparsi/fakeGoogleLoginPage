@@ -14,6 +14,10 @@
 		76DCA54C291E51AE0023717B /* fakeGoogleLoginPageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DCA54B291E51AE0023717B /* fakeGoogleLoginPageTests.swift */; };
 		76DCA556291E51AE0023717B /* fakeGoogleLoginPageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DCA555291E51AE0023717B /* fakeGoogleLoginPageUITests.swift */; };
 		76DCA558291E51AE0023717B /* fakeGoogleLoginPageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DCA557291E51AE0023717B /* fakeGoogleLoginPageUITestsLaunchTests.swift */; };
+		76DCA565291E531F0023717B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DCA564291E531F0023717B /* HomeView.swift */; };
+		76DCA567291E542E0023717B /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DCA566291E542E0023717B /* LogoView.swift */; };
+		76DCA569291E5BB00023717B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DCA568291E5BB00023717B /* LoginView.swift */; };
+		76DCA56B291E5DD30023717B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DCA56A291E5DD30023717B /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		76DCA551291E51AE0023717B /* fakeGoogleLoginPageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fakeGoogleLoginPageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76DCA555291E51AE0023717B /* fakeGoogleLoginPageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fakeGoogleLoginPageUITests.swift; sourceTree = "<group>"; };
 		76DCA557291E51AE0023717B /* fakeGoogleLoginPageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fakeGoogleLoginPageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		76DCA564291E531F0023717B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		76DCA566291E542E0023717B /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		76DCA568291E5BB00023717B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		76DCA56A291E5DD30023717B /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,10 @@
 				76DCA53C291E51AB0023717B /* ContentView.swift */,
 				76DCA53E291E51AD0023717B /* Assets.xcassets */,
 				76DCA540291E51AD0023717B /* Preview Content */,
+				76DCA564291E531F0023717B /* HomeView.swift */,
+				76DCA566291E542E0023717B /* LogoView.swift */,
+				76DCA568291E5BB00023717B /* LoginView.swift */,
+				76DCA56A291E5DD30023717B /* SignUpView.swift */,
 			);
 			path = fakeGoogleLoginPage;
 			sourceTree = "<group>";
@@ -257,7 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76DCA565291E531F0023717B /* HomeView.swift in Sources */,
+				76DCA567291E542E0023717B /* LogoView.swift in Sources */,
 				76DCA53D291E51AB0023717B /* ContentView.swift in Sources */,
+				76DCA569291E5BB00023717B /* LoginView.swift in Sources */,
+				76DCA56B291E5DD30023717B /* SignUpView.swift in Sources */,
 				76DCA53B291E51AB0023717B /* fakeGoogleLoginPageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
